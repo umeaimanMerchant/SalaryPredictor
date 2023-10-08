@@ -1,7 +1,7 @@
 # Salary Predictor
 
 # Data Science Salary Estimator: Project Overview 
-* Created a tool that estimates data professional salaries (MAE ~ $ 11K) to help candidates negotiate their income when they get a job.
+* Created a tool that estimates data professional salaries to help candidates negotiate their income when they get a job.
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, R, and tableau. 
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
@@ -70,6 +70,6 @@ I tried three different models:
 
 ## Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets. 
-*	**Random Forest** : MAE = 11.22
-*	**Linear Regression**: MAE = 18.86
-*	**Lasso Regression**: MAE = 19.67
+*	**Random Forest** : MAE = 10.84
+*	**Linear Regression**: MAE = 17.44
+*	**Lasso Regression**: MAE = 14.96

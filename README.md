@@ -55,7 +55,7 @@ I looked at the distributions of the data and the value counts for the various c
 ![alt text](https://github.com/umeaimanMerchant/SalaryPredictor/blob/main/Images/salay.PNG "Job Opportunities by State")
 ![alt text](https://github.com/umeaimanMerchant/SalaryPredictor/blob/main/Images/sector.PNG "Correlations")
 ![alt text](https://github.com/umeaimanMerchant/SalaryPredictor/blob/main/Images/avg_salary.PNG "Salary by Position")
-
+![alt text](https://github.com/umeaimanMerchant/SalaryPredictor/blob/main/Images/heatmap.PNG "Salary by Position")
 
 ## Model Building 
 

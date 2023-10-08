@@ -5,7 +5,6 @@
 * Scraped over 1000 job descriptions from glassdoor using python and selenium
 * Engineered features from the text of each job description to quantify the value companies put on python, excel, R, and tableau. 
 * Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model. 
-* Built a client facing API using flask 
 
 ## Code and Resources Used 
 **Python Version:** 3.7  
@@ -13,7 +12,6 @@
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```  
 **Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
 **Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
-**Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
 
 ## Web Scraping
 Tweaked the web scraper github repo (above) to scrape 1000 job postings from glassdoor.com. With each job, we got the following:
@@ -73,6 +71,3 @@ The Random Forest model far outperformed the other approaches on the test and va
 *	**Random Forest** : MAE = 11.22
 *	**Linear Regression**: MAE = 18.86
 *	**Ridge Regression**: MAE = 19.67
-
-## Productionization 
-In this step, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial in the reference section above. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary. 
